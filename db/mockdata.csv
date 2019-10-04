@@ -1,0 +1,101 @@
+phone_number,gender,age,time,ethnicity,notes,severity,longitude,latitude
+42381765,male,elderly,2019-10-09 18:35:27.719598,indian,Testing,Moderate,103.85479,1.29027
+74258631,male,elderly,2019-09-02 02:04:27.719598,chinese,Testing,Severe,103.84773,1.29187
+21634758,male,elderly,2019-10-09 13:03:27.719598,chinese,Testing,Severe,103.85475,1.29017
+14583276,male,elderly,2019-09-21 04:09:27.719598,indian,Testing,Severe,103.85339,1.29127
+58426371,male,elderly,2019-10-03 11:54:27.719598,others,Testing,Severe,103.85027,1.29007
+21563784,female,elderly,2019-10-21 07:48:27.719598,chinese,Testing,Not urgent,103.85618,1.29147
+14826735,male,elderly,2019-09-23 17:17:27.719598,indian,Testing,Not urgent,103.8531,1.29057
+26173845,female,elderly,2019-09-28 20:54:27.719598,others,Testing,Moderate,103.8583,1.28847
+51246783,female,elderly,2019-09-02 02:49:27.719598,indian,Testing,Moderate,103.84483,1.28927
+48362175,male,elderly,2019-10-06 20:10:27.719598,chinese,Testing,Not urgent,103.85119,1.29117
+21675438,male,elderly,2019-09-10 09:56:27.719598,indian,Testing,Severe,103.85985,1.29117
+81674235,female,elderly,2019-09-09 11:17:27.719598,chinese,Testing,Severe,103.84937,1.29097
+38467215,male,elderly,2019-09-04 19:42:27.719598,chinese,Testing,Moderate,103.85496,1.28857
+63184725,female,elderly,2019-09-09 21:00:27.719598,malay,Testing,Moderate,103.86025,1.29107
+12573684,female,elderly,2019-10-29 09:42:27.719598,chinese,Testing,Not urgent,103.85822,1.29007
+37654812,male,elderly,2019-09-12 16:39:27.719598,malay,Testing,Moderate,103.85629,1.29087
+43176852,female,elderly,2019-09-30 09:39:27.719598,malay,Testing,Not urgent,103.84964,1.28837
+86412735,female,elderly,2019-10-10 16:14:27.719598,malay,Testing,Not urgent,103.85799,1.28867
+85127436,female,elderly,2019-09-02 21:44:27.719598,indian,Testing,Severe,103.84387,1.29017
+24631857,female,elderly,2019-10-16 08:53:27.719598,chinese,Testing,Severe,103.85012,1.28957
+65731824,male,elderly,2019-10-08 01:05:27.719598,others,Testing,Severe,103.85538,1.28837
+42376581,male,elderly,2019-10-14 21:22:27.719598,chinese,Testing,Not urgent,103.85539,1.28967
+61578432,male,,2019-09-03 02:12:27.719598,indian,Testing,Not urgent,103.84395,1.29207
+68721453,male,elderly,2019-09-21 00:28:27.719598,indian,Testing,Severe,103.85691,1.29007
+28743615,female,elderly,2019-09-20 09:01:27.719598,malay,Testing,Severe,103.85814,1.28917
+81257643,female,elderly,2019-10-17 06:05:27.719598,chinese,Testing,Not urgent,103.84883,1.29037
+34716582,male,elderly,2019-10-24 00:23:27.719598,indian,Testing,Not urgent,103.85893,1.28897
+64182375,male,elderly,2019-09-18 02:44:27.719598,malay,Testing,Moderate,103.85051,1.28907
+54276138,female,elderly,2019-10-01 08:47:27.719598,indian,Testing,Not urgent,103.85978,1.29177
+87364512,female,elderly,2019-09-14 17:00:27.719598,indian,Testing,Severe,103.85955,1.29147
+72543861,male,elderly,2019-09-24 03:56:27.719598,others,Testing,Not urgent,103.85436,1.29067
+76138524,female,elderly,2019-09-24 19:08:27.719598,others,Testing,Moderate,103.85866,1.28957
+52387641,male,elderly,2019-09-14 08:33:27.719598,others,Testing,Moderate,103.8535,1.29007
+45327816,female,elderly,2019-10-29 03:18:27.719598,malay,Testing,Moderate,103.85639,1.28927
+78654123,male,elderly,2019-09-19 05:12:27.719598,malay,Testing,Not urgent,103.85384,1.28907
+83415672,female,elderly,2019-09-12 03:37:27.719598,malay,Testing,Severe,103.8575,1.29047
+24167358,male,elderly,2019-09-29 21:36:27.719598,indian,Testing,Moderate,103.8526,1.29207
+53681742,female,elderly,2019-09-07 13:21:27.719598,malay,Testing,Not urgent,103.84899,1.28827
+27541638,male,elderly,2019-09-04 23:49:27.719598,indian,Testing,Not urgent,103.85278,1.29167
+63217548,male,elderly,2019-10-26 07:39:27.719598,malay,Testing,Not urgent,103.85482,1.29227
+24856731,female,elderly,2019-09-13 22:12:27.719598,chinese,Testing,Severe,103.85121,1.29117
+24573168,male,elderly,2019-10-30 00:53:27.719598,others,Testing,Severe,103.84636,1.29147
+72583164,male,elderly,2019-09-23 12:20:27.719598,others,Testing,Severe,103.85136,1.29147
+16357284,male,elderly,2019-10-13 20:40:27.719598,malay,Testing,Severe,103.85372,1.28927
+17843256,male,elderly,2019-09-15 09:32:27.719598,indian,Testing,Moderate,103.85279,1.29027
+21485367,male,elderly,2019-09-09 00:48:27.719598,others,Testing,Moderate,103.85915,1.29027
+17652438,female,elderly,2019-10-29 01:49:27.719598,malay,Testing,Moderate,103.84921,1.28897
+45682371,male,elderly,2019-10-27 12:54:27.719598,others,Testing,Not urgent,103.85975,1.29197
+65138724,male,elderly,2019-10-20 11:47:27.719598,chinese,Testing,Moderate,103.8579,1.29037
+85624713,female,elderly,2019-10-03 21:46:27.719598,others,Testing,Not urgent,103.86066,1.28887
+32748651,male,elderly,2019-09-26 18:16:27.719598,others,Testing,Not urgent,103.85313,1.29177
+62418735,female,elderly,2019-10-17 01:07:27.719598,malay,Testing,Severe,103.84958,1.29047
+56231478,female,elderly,2019-09-22 23:16:27.719598,chinese,Testing,Not urgent,103.85445,1.28967
+67253841,male,elderly,2019-09-28 12:11:27.719598,chinese,Testing,Not urgent,103.85608,1.29077
+64217835,male,elderly,2019-10-16 17:21:27.719598,others,Testing,Severe,103.85814,1.29077
+74156283,male,elderly,2019-10-28 03:16:27.719598,indian,Testing,Moderate,103.85853,1.29007
+84156732,male,elderly,2019-10-06 14:54:27.719598,chinese,Testing,Moderate,103.84717,1.29167
+75684321,female,elderly,2019-10-18 12:31:27.719598,indian,Testing,Severe,103.86041,1.29197
+47251863,female,elderly,2019-09-01 02:50:27.719598,malay,Testing,Severe,103.84538,1.29187
+54376812,male,elderly,2019-09-15 10:59:27.719598,chinese,Testing,Not urgent,103.84395,1.29217
+83712456,male,elderly,2019-09-10 07:03:27.719598,others,Testing,Severe,103.86046,1.29077
+85374261,male,elderly,2019-09-17 12:45:27.719598,chinese,Testing,Severe,103.8515,1.28947
+54726318,male,elderly,2019-09-26 19:23:27.719598,chinese,Testing,Moderate,103.84563,1.29107
+24518376,female,elderly,2019-10-26 19:53:27.719598,malay,Testing,Moderate,103.84996,1.28917
+82763451,male,elderly,2019-09-15 10:45:27.719598,chinese,Testing,Severe,103.85293,1.29137
+34576281,male,elderly,2019-09-19 20:28:27.719598,others,Testing,Not urgent,103.8598,1.28847
+15684237,male,elderly,2019-09-29 22:29:27.719598,chinese,Testing,Moderate,103.84774,1.28917
+21653478,male,elderly,2019-10-09 09:33:27.719598,malay,Testing,Moderate,103.85514,1.28977
+87124356,female,elderly,2019-09-22 22:21:27.719598,indian,Testing,Severe,103.85537,1.28927
+72638514,male,elderly,2019-10-30 20:11:27.719598,indian,Testing,Moderate,103.85021,1.29187
+12647538,male,elderly,2019-10-21 05:06:27.719598,chinese,Testing,Severe,103.84729,1.29107
+13827645,female,elderly,2019-10-01 20:59:27.719598,indian,Testing,Moderate,103.85538,1.29047
+15263478,female,elderly,2019-09-29 11:11:27.719598,malay,Testing,Severe,103.85632,1.29057
+31875642,female,elderly,2019-10-06 23:46:27.719598,others,Testing,Moderate,103.8526,1.29197
+81437526,male,elderly,2019-09-16 12:24:27.719598,malay,Testing,Severe,103.85601,1.28957
+57241683,female,elderly,2019-09-28 11:59:27.719598,indian,Testing,Moderate,103.8514,1.28897
+32175846,female,elderly,2019-10-03 16:12:27.719598,others,Testing,Severe,103.85374,1.29227
+37218546,male,elderly,2019-10-28 06:06:27.719598,others,Testing,Not urgent,103.85545,1.28877
+46783152,female,elderly,2019-09-12 18:01:27.719598,chinese,Testing,Moderate,103.85383,1.29067
+21364587,male,elderly,2019-10-23 04:42:27.719598,chinese,Testing,Moderate,103.85249,1.29037
+35728461,male,elderly,2019-10-27 18:17:27.719598,chinese,Testing,Moderate,103.8473,1.29067
+46375128,male,elderly,2019-09-22 13:36:27.719598,malay,Testing,Not urgent,103.84905,1.28887
+31267854,male,elderly,2019-09-03 01:05:27.719598,others,Testing,Moderate,103.85004,1.28847
+64271538,female,elderly,2019-10-15 17:38:27.719598,chinese,Testing,Not urgent,103.84659,1.29167
+53712486,male,elderly,2019-09-02 00:49:27.719598,others,Testing,Moderate,103.84593,1.29107
+42853761,male,elderly,2019-09-03 18:03:27.719598,indian,Testing,Moderate,103.8573,1.28947
+23456178,female,elderly,2019-09-13 15:02:27.719598,others,Testing,Severe,103.84559,1.29207
+36518247,female,elderly,2019-09-19 13:10:27.719598,others,Testing,Severe,103.85041,1.29127
+51846237,male,elderly,2019-09-18 15:51:27.719598,others,Testing,Not urgent,103.84742,1.29117
+74135862,female,elderly,2019-10-22 22:07:27.719598,indian,Testing,Not urgent,103.84402,1.28937
+13487265,female,elderly,2019-10-30 08:54:27.719598,indian,Testing,Severe,103.85477,1.28917
+72135864,female,elderly,2019-09-15 07:00:27.719598,others,Testing,Not urgent,103.85806,1.29167
+42587316,female,elderly,2019-09-25 01:32:27.719598,malay,Testing,Severe,103.86035,1.29067
+27431658,female,elderly,2019-10-27 23:09:27.719598,others,Testing,Not urgent,103.85558,1.28957
+32561478,female,elderly,2019-10-10 02:00:27.719598,indian,Testing,Not urgent,103.8586,1.29147
+85461723,male,elderly,2019-09-21 12:53:27.719598,indian,Testing,Not urgent,103.85193,1.28977
+87421653,female,elderly,2019-10-18 13:37:27.719598,malay,Testing,Not urgent,103.85706,1.29117
+82157634,male,elderly,2019-09-29 06:30:27.719598,chinese,Testing,Moderate,103.86057,1.28887
+24138756,female,elderly,2019-10-09 21:42:27.719598,chinese,Testing,Not urgent,103.85864,1.28977
+48567312,female,elderly,2019-09-08 07:40:27.719598,chinese,Testing,Moderate,103.84769,1.29017

@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "name": "Barry Foo",
+            "email": "barry@foo.com",
+            "password": "not_hashed",
+            "phone_number": 11111111,
+            "user_type": "user"
+        },
+        {
+            "name": "apple",
+            "email": "apple@mac.com",
+            "password": "apple123",
+            "phone_number": 22222222,
+            "user_type": "admin"
+        },
+        {
+            "name": "pear",
+            "email": "pear@fruits.com",
+            "password": "pear123",
+            "phone_number": 33333333,
+            "user_type": "user"
+        }
+    ]
+}
