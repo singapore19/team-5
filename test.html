@@ -1,0 +1,23 @@
+<html>
+<head>
+  <script src="https://unpkg.com/tablefilter@0.6.100/dist/tablefilter/tablefilter.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/tablefilter@0.6.100/dist/tablefilter/style/tablefilter.css" />
+</head>
+
+<body>
+  <table class='my-table'>
+    <tr><th>header!</th></tr>
+    <tr><td>hi</td></tr>
+    <tr><td>wow</td></tr>
+
+
+  </table>
+  <script>
+      var tf = new TableFilter(document.querySelector('.my-table'), {
+          base_path: 'https://unpkg.com/tablefilter@0.6.100/dist/tablefilter/'
+      });
+      tf.init();
+      </script>
+</body>
+
+</html>
