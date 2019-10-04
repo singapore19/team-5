@@ -8,6 +8,8 @@ def get_random():
     rand_nums = list("12345678")
     eth = ['chinese', 'malay', 'indian', 'others']
     sev = ['Severe', 'Moderate', 'Not urgent']
+    regions = ['Changi', 'Jurong West', 'Bukit Panjang', 'Kovan', 'Hougang', 'Sengkang', 'Choa Chu Kang',
+    'Pioneer', 'Joo Koon', "Tanjong Pangar", "Bishan", 'Serangoon', 'Pasir Ris', 'Jurong East']
 
     random.shuffle(rand_nums)
     random.shuffle(rand_nums)
@@ -21,6 +23,7 @@ def get_random():
         "ethnicity": random.choice(['chinese', 'malay', 'indian', 'others']),
         "notes": "Testing",
         "severity": random.choice(['Severe', 'Moderate', 'Not urgent']),
+        "region": random.choice(regions),
         "longitude": round(get_random_long(), 5),
         "latitude": round(get_random_lat(), 5)
     }
@@ -34,13 +37,7 @@ def get_random_age():
         80: "elderly"
     }
 
-    random_age_group = ""
-
-    for age, age_group in age_mapping.items():
-        if rand_age < age:
-            random_age_group = age_group
-
-    return random_age_group
+    return random.choice(list(age_mapping.values()))
 
 def get_random_time():
     random_month = random.randint(9, 10)

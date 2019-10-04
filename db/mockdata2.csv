@@ -1,0 +1,101 @@
+phone_number,gender,age,time,ethnicity,notes,severity,region,longitude,latitude
+48612357,male,children,2019-10-07 02:29:27.719598,others,Testing,Moderate,Serangoon,103.86061,1.28947
+21354786,male,children,2019-09-03 05:35:27.719598,indian,Testing,Not urgent,Tanjong Pangar,103.85851,1.29037
+15326847,female,elderly,2019-10-01 19:28:27.719598,chinese,Testing,Severe,Pioneer,103.85179,1.28977
+84615732,female,young_adult,2019-09-29 11:28:27.719598,chinese,Testing,Severe,Pasir Ris,103.84739,1.29157
+46531872,male,elderly,2019-09-18 02:15:27.719598,chinese,Testing,Severe,Sengkang,103.84758,1.29087
+45671238,male,midlife,2019-09-17 14:06:27.719598,chinese,Testing,Severe,Choa Chu Kang,103.85126,1.28877
+53721864,female,midlife,2019-09-11 01:14:27.719598,malay,Testing,Moderate,Tanjong Pangar,103.84933,1.29037
+14386527,male,children,2019-09-09 00:40:27.719598,malay,Testing,Moderate,Pioneer,103.85592,1.29017
+72863154,male,elderly,2019-10-15 20:50:27.719598,indian,Testing,Severe,Serangoon,103.85946,1.28867
+67328145,male,children,2019-10-11 08:08:27.719598,chinese,Testing,Not urgent,Tanjong Pangar,103.84866,1.28917
+57182364,female,children,2019-09-20 00:20:27.719598,chinese,Testing,Severe,Changi,103.84831,1.28907
+74562813,male,young_adult,2019-10-02 10:24:27.719598,others,Testing,Not urgent,Tanjong Pangar,103.85174,1.28907
+41682573,female,midlife,2019-10-17 16:08:27.719598,chinese,Testing,Moderate,Jurong West,103.85859,1.28957
+62384751,male,elderly,2019-10-22 17:35:27.719598,chinese,Testing,Moderate,Joo Koon,103.8497,1.29147
+37258164,female,midlife,2019-10-18 09:23:27.719598,malay,Testing,Severe,Kovan,103.85811,1.29227
+41528637,male,young_adult,2019-10-21 13:00:27.719598,malay,Testing,Moderate,Jurong West,103.85868,1.28847
+28541763,male,midlife,2019-10-29 10:14:27.719598,malay,Testing,Moderate,Sengkang,103.85793,1.29197
+78514236,female,midlife,2019-10-12 14:27:27.719598,others,Testing,Moderate,Bishan,103.85549,1.29007
+37412568,male,midlife,2019-09-12 07:47:27.719598,indian,Testing,Severe,Serangoon,103.84747,1.28967
+32156478,female,elderly,2019-09-18 22:47:27.719598,malay,Testing,Moderate,Jurong West,103.84722,1.28997
+45167283,male,children,2019-10-28 15:51:27.719598,chinese,Testing,Not urgent,Changi,103.85035,1.29177
+54638271,female,elderly,2019-10-05 14:30:27.719598,others,Testing,Not urgent,Hougang,103.84514,1.28957
+72485316,male,midlife,2019-10-27 09:46:27.719598,others,Testing,Moderate,Sengkang,103.85672,1.29017
+63174258,female,midlife,2019-09-18 17:19:27.719598,chinese,Testing,Moderate,Changi,103.84603,1.29107
+46187532,female,elderly,2019-09-09 05:42:27.719598,others,Testing,Not urgent,Pioneer,103.85726,1.29127
+45217386,female,midlife,2019-10-17 17:40:27.719598,chinese,Testing,Severe,Pasir Ris,103.85436,1.29057
+48132576,male,midlife,2019-10-02 04:18:27.719598,malay,Testing,Not urgent,Choa Chu Kang,103.84668,1.29197
+26375481,female,children,2019-09-22 22:03:27.719598,chinese,Testing,Not urgent,Choa Chu Kang,103.85086,1.29147
+23548176,male,young_adult,2019-10-25 07:36:27.719598,others,Testing,Severe,Joo Koon,103.8502,1.28877
+14283756,male,midlife,2019-09-30 13:33:27.719598,malay,Testing,Not urgent,Jurong East,103.85747,1.28907
+24856713,female,midlife,2019-10-20 16:53:27.719598,malay,Testing,Not urgent,Joo Koon,103.85358,1.28997
+12648573,male,children,2019-09-30 23:13:27.719598,others,Testing,Severe,Joo Koon,103.84388,1.28987
+13456827,male,children,2019-09-27 21:21:27.719598,others,Testing,Moderate,Joo Koon,103.84313,1.28857
+23571864,female,children,2019-09-16 16:23:27.719598,chinese,Testing,Not urgent,Pasir Ris,103.86074,1.29117
+14638257,female,midlife,2019-09-08 16:07:27.719598,others,Testing,Severe,Tanjong Pangar,103.85406,1.29077
+42568137,female,young_adult,2019-10-24 03:32:27.719598,malay,Testing,Not urgent,Serangoon,103.84579,1.29077
+27851436,male,children,2019-09-26 07:20:27.719598,indian,Testing,Not urgent,Tanjong Pangar,103.84314,1.28847
+28764153,male,elderly,2019-10-23 14:23:27.719598,indian,Testing,Not urgent,Choa Chu Kang,103.84359,1.28847
+34617285,male,young_adult,2019-09-25 15:07:27.719598,indian,Testing,Moderate,Kovan,103.85466,1.29107
+18362547,male,midlife,2019-09-05 04:50:27.719598,malay,Testing,Not urgent,Hougang,103.85736,1.29057
+61583724,male,children,2019-10-09 07:04:27.719598,indian,Testing,Moderate,Kovan,103.85167,1.29127
+64128735,female,children,2019-09-15 00:03:27.719598,others,Testing,Moderate,Choa Chu Kang,103.85644,1.29157
+86173425,female,young_adult,2019-09-27 16:36:27.719598,malay,Testing,Not urgent,Changi,103.85043,1.29087
+78612534,male,young_adult,2019-10-16 00:35:27.719598,others,Testing,Severe,Pioneer,103.84636,1.29097
+86175423,female,children,2019-10-05 04:03:27.719598,chinese,Testing,Severe,Bukit Panjang,103.8483,1.29057
+32678541,male,midlife,2019-09-06 05:11:27.719598,chinese,Testing,Not urgent,Jurong East,103.85404,1.29207
+25164738,male,children,2019-10-26 21:47:27.719598,others,Testing,Severe,Joo Koon,103.84825,1.29157
+46781235,female,children,2019-09-11 16:54:27.719598,chinese,Testing,Not urgent,Pasir Ris,103.85729,1.29127
+43176528,female,children,2019-09-03 02:16:27.719598,indian,Testing,Not urgent,Pasir Ris,103.85016,1.28927
+46217853,male,midlife,2019-09-07 01:25:27.719598,malay,Testing,Severe,Serangoon,103.84558,1.29177
+82573461,male,young_adult,2019-10-17 21:53:27.719598,chinese,Testing,Severe,Jurong West,103.8495,1.28867
+47821365,female,young_adult,2019-10-30 04:11:27.719598,chinese,Testing,Severe,Kovan,103.84387,1.29177
+28731564,female,young_adult,2019-10-25 14:12:27.719598,chinese,Testing,Severe,Kovan,103.84458,1.29217
+15486732,male,elderly,2019-10-04 21:58:27.719598,others,Testing,Moderate,Bishan,103.84994,1.28907
+81463752,male,children,2019-09-02 08:56:27.719598,chinese,Testing,Not urgent,Pioneer,103.85183,1.29147
+52641738,male,young_adult,2019-09-16 09:01:27.719598,others,Testing,Not urgent,Jurong East,103.84529,1.29057
+82345617,male,elderly,2019-10-27 10:17:27.719598,chinese,Testing,Not urgent,Tanjong Pangar,103.85088,1.28997
+46318572,female,young_adult,2019-10-24 22:32:27.719598,malay,Testing,Severe,Sengkang,103.85364,1.28877
+81543762,male,children,2019-10-05 07:00:27.719598,others,Testing,Not urgent,Joo Koon,103.85188,1.28937
+78213546,male,young_adult,2019-09-03 06:02:27.719598,indian,Testing,Moderate,Tanjong Pangar,103.86017,1.29087
+24586173,female,elderly,2019-09-21 01:04:27.719598,malay,Testing,Not urgent,Bishan,103.84999,1.28897
+37465821,male,young_adult,2019-10-01 04:20:27.719598,others,Testing,Severe,Jurong East,103.85608,1.29197
+68457123,female,young_adult,2019-10-20 02:38:27.719598,others,Testing,Not urgent,Sengkang,103.85272,1.29197
+53612478,male,young_adult,2019-09-13 01:00:27.719598,malay,Testing,Severe,Kovan,103.84783,1.28917
+76542138,female,young_adult,2019-10-18 04:18:27.719598,others,Testing,Moderate,Choa Chu Kang,103.85386,1.29037
+46583271,male,midlife,2019-10-23 04:06:27.719598,indian,Testing,Not urgent,Serangoon,103.84315,1.29187
+28457316,male,children,2019-10-08 07:57:27.719598,others,Testing,Moderate,Kovan,103.84769,1.28897
+23768415,female,elderly,2019-10-03 09:39:27.719598,chinese,Testing,Moderate,Bukit Panjang,103.86024,1.29027
+26458713,female,elderly,2019-09-14 23:24:27.719598,malay,Testing,Not urgent,Bukit Panjang,103.85443,1.28927
+72158346,female,elderly,2019-10-28 22:47:27.719598,indian,Testing,Severe,Bishan,103.85166,1.29117
+81456273,male,children,2019-09-07 23:07:27.719598,chinese,Testing,Moderate,Jurong East,103.85626,1.28927
+21576483,male,young_adult,2019-09-28 05:58:27.719598,others,Testing,Severe,Joo Koon,103.85135,1.28877
+87514236,female,elderly,2019-09-25 20:25:27.719598,malay,Testing,Moderate,Serangoon,103.85574,1.28907
+26381754,female,midlife,2019-09-07 13:06:27.719598,malay,Testing,Moderate,Joo Koon,103.85694,1.29007
+45183726,female,midlife,2019-10-29 02:53:27.719598,others,Testing,Not urgent,Joo Koon,103.8521,1.29027
+68734125,male,midlife,2019-09-25 07:41:27.719598,others,Testing,Moderate,Pasir Ris,103.84381,1.29097
+27385641,male,children,2019-09-09 14:01:27.719598,malay,Testing,Severe,Jurong East,103.84818,1.29007
+37284615,male,elderly,2019-10-02 20:09:27.719598,others,Testing,Not urgent,Tanjong Pangar,103.84657,1.28857
+24576183,male,midlife,2019-09-21 12:42:27.719598,malay,Testing,Not urgent,Joo Koon,103.85763,1.29197
+68254371,female,children,2019-09-22 03:38:27.719598,others,Testing,Severe,Bukit Panjang,103.84807,1.28967
+73165842,male,elderly,2019-10-12 20:08:27.719598,indian,Testing,Severe,Hougang,103.84378,1.28867
+21746538,male,elderly,2019-09-25 21:04:27.719598,others,Testing,Severe,Pasir Ris,103.84905,1.29217
+17235648,male,elderly,2019-09-24 00:03:27.719598,chinese,Testing,Not urgent,Bishan,103.85491,1.28907
+36458217,male,young_adult,2019-09-02 23:35:27.719598,others,Testing,Not urgent,Joo Koon,103.85866,1.28847
+68543217,female,young_adult,2019-09-21 14:57:27.719598,others,Testing,Not urgent,Jurong West,103.84942,1.29137
+53614287,male,elderly,2019-09-27 04:10:27.719598,chinese,Testing,Not urgent,Changi,103.84976,1.29047
+78243561,female,midlife,2019-10-25 17:54:27.719598,chinese,Testing,Not urgent,Joo Koon,103.85582,1.28857
+17654328,male,elderly,2019-10-10 01:33:27.719598,chinese,Testing,Not urgent,Tanjong Pangar,103.84686,1.28947
+41652738,female,elderly,2019-10-15 20:44:27.719598,malay,Testing,Moderate,Jurong West,103.84655,1.29047
+25173648,male,midlife,2019-09-23 21:34:27.719598,chinese,Testing,Moderate,Bukit Panjang,103.84532,1.29127
+75812436,male,elderly,2019-10-15 13:15:27.719598,others,Testing,Moderate,Tanjong Pangar,103.84879,1.29217
+23561748,female,children,2019-10-20 12:37:27.719598,chinese,Testing,Not urgent,Bukit Panjang,103.854,1.28957
+53287641,female,children,2019-09-21 01:20:27.719598,others,Testing,Not urgent,Pasir Ris,103.85837,1.29227
+64718235,male,young_adult,2019-09-22 03:35:27.719598,others,Testing,Not urgent,Joo Koon,103.85364,1.28917
+36281475,male,children,2019-09-16 11:08:27.719598,malay,Testing,Severe,Pasir Ris,103.85011,1.28857
+41685372,female,elderly,2019-09-21 09:33:27.719598,malay,Testing,Severe,Bishan,103.84929,1.28847
+85164723,male,elderly,2019-10-26 10:46:27.719598,indian,Testing,Not urgent,Bukit Panjang,103.85242,1.29047
+37248615,female,children,2019-09-18 06:02:27.719598,indian,Testing,Not urgent,Jurong East,103.8474,1.29177
+34178265,male,young_adult,2019-09-09 18:53:27.719598,malay,Testing,Not urgent,Tanjong Pangar,103.85471,1.29187
+45732168,male,young_adult,2019-09-24 08:42:27.719598,malay,Testing,Not urgent,Pasir Ris,103.85772,1.28897
