@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--
+	Moon by GetTemplates.co
+	URL: https://gettemplates.co
+-->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Help others</title>
+    <meta name="description" content="Core HTML Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-nav-header" class="single-layout">
+    <div class="boxed-page">
+        <nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
+            <div class="container">
+
+                <div class="collapse navbar-collapse" id="navbar-nav-header">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div class="jumbotron d-flex align-items-center" style="background-image: url(img/blog-1.jpg); min-height:0px">
+            <div class="container text-center">
+                <h1 class="display-2 mb-4 single-blog-title">Help us to help others</h1>
+            </div>
+        </div> <!-- report Form Section -->
+        <section id="gtco-contact-form" class="bg-white">
+            <div class="container">
+                <div class="section-content">
+                    <div class="row">
+                        <!-- report Form Holder -->
+                        <div class="col-md-8 offset-md-2 contact-form-holder mt-4">
+                            <form method="post" name="contact-us" action="register.html">
+                                <div class="col-md-12 form-btn">
+                                    <label>Ethnicity</label>
+                                    <select class="form-control">
+                                        <option value="Chinese">Chinese</option>
+                                        <option value="Indian">Indian</option>
+                                        <option value="Malay">Malay</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 form-btn">
+                                    <label>Gender</label>
+                                    <select class="form-control">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 form-btn">
+                                    <label>Age</label>
+                                    <select class="form-control">
+                                        <option value="Children">Child</option>
+                                        <option value="Teenager">Teenager</option>
+                                        <option value="Adult">Adult</option>
+                                        <option value="Elderly">Elderly</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 form-btn">
+                                    <label>Urgency</label>
+                                    <select class="form-control">
+                                        <option value="Low">Low</option>
+                                        <option value="Medium">Medium</option>
+                                        <option value="High">High</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 form-btn">
+                                    <label>Notes</label>
+                                    <input type="text" style="height:100px" class="form-control" id="notes"
+                                        placeholder="Enter noteworthy features. E.g. clothing, etc">
+                                </div>
+                                <div class="col-md-12 form-btn">
+                                    <label>Reporter's number</label>
+                                    <input type="number" class="form-control" id="phone" placeholder="91234567">
+                                </div>
+                                <input type="hidden" id="lat" value="" />
+                                <input type="hidden" id="long" value="" />
+
+                                <div class="col-md-12 form-btn text-center">
+                                    <button class="btn btn-block btn-secondary btn-red" type="submit"
+                                        name="submit">Report</button>
+                                </div>
+                        </div>
+                        </form>
+                        <div id="form-message-warning"></div>
+                        <div id="form-message-success">
+                            Your report has been received. Thank you for your help!
+                        </div>
+                    </div>
+                    <!-- End of Report Form Holder -->
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- End of Report Form Section -->
+
+    </div>
+
+    </div>
+    <!-- External JS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="vendor/bootstrap/popper.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js "></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="vendor/isotope/isotope.min.js"></script>
+    <script src="vendor/lightcase/lightcase.js"></script>
+    <script src="vendor/waypoints/waypoint.min.js"></script>
+    <script src="vendor/countTo/jquery.countTo.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/app.min.js "></script>
+    <script src="//localhost:35729/livereload.js"></script>
+    <script>
+        var lat = document.getElementById("lat");
+        var long = document.getElementById("long");
+        function getLat() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(setLat);
+
+            }
+        }
+        function getLong() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(setLong);
+
+            }
+        }
+        function setLat(position) {
+            lat.nodeValue = position.coords.latitude;
+
+        }
+        function setLong(position) {
+            lat.nodeValue = position.coords.longitude;
+
+        }
+
+    </script>
+</body>
+
+</html>
