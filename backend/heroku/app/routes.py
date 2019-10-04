@@ -38,7 +38,8 @@ sample_data = {
             "age": "middle age",
             "time": 1570159948,
             "id": 1,
-            "desc": "Guy wore blue pants"
+            "desc": "Guy wore blue pants",  
+            "urgency_level": "low" # low medium high
         }
     ]
 }
