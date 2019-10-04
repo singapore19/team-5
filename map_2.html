@@ -29,14 +29,20 @@
 </head>
 
 <body>
+<style>
+.mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+</style>
 
   <div id='map' style='width: 700px; height: 400px;'></div>
   <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhb3RhbmciLCJhIjoiY2sxYmlwcGkyMmcwNzNibmlobDYxdTB3NyJ9.acox36NJp8FOdub-hGIYEw'; // set the access token
-
+    var tileset = 'shaotang.d5jokjgd';
     var map = new mapboxgl.Map({
       container: 'map', // The container ID
-      style: 'mapbox://styles/mapbox/light-v10', // The map style to use
+      style: 'mapbox://styles/shaotang/ck1bp1tuc0cox1cpfggp9e2xl', // The map style to use
       center: [103.82, 1.37], // Starting position [lng, lat]
       zoom: 10.5 // Starting zoom level
     });
@@ -46,60 +52,26 @@
         mapboxgl: mapboxgl, // Set the mapbox-gl instance
         zoom: 13, // Set the zoom level for geocoding results
         placeholder: "Enter an address or place name", // This placeholder text will display in the search bar
-        bbox: [-105.116, 39.679, -104.898, 39.837] // Set a bounding box
+        //bbox: [-105.116, 39.679, -104.898, 39.837] // Set a bounding box
     });
     // Add the geocoder to the map
-     map.addControl(geocoder, 'top-left'); // Add the search box to the top left
-        var query = 'https://api.mapbox.com/v4/' + tileset + '/tilequery/' + center[0] + ',' + center[1] +  ' &access_token=' + mapboxgl.accessToken;
-    $.ajax({
+     //map.addControl(geocoder, 'top-left'); // Add the search box to the top left
+        var query = 'mapbox://styles/shaotang/ck1bp1tuc0cox1cpfggp9e2xl' + tileset + '/tilequery/' + center[0] + ',' + center[1] +  ' &access_token=' + mapboxgl.accessToken;
+
+        $.ajax({
         method: 'GET',
         url: query,
     }).done(function(data) {
-  console.log(data);
-    map.addSource('tilequery', { // Add a new source to the map style: https://docs.mapbox.com/mapbox-gl-js/api/#map#addsource
-  type: "geojson",
-  data: {
-    "type": "FeatureCollection",
-    "features": []
-  }
-});
+    console.log(data);
 
-map.addLayer({ // Add a new layer to the map style: https://docs.mapbox.com/mapbox-gl-js/api/#map#addlayer
-  id: "tilequery-points",
-  type: "circle",
-  source: "tilequery", // Set the layer source
-  paint: {
-    "circle-stroke-color": "white",
-    "circle-stroke-width": { // Set the stroke width of each circle: https://docs.mapbox.com/mapbox-gl-js/style-spec/#paint-circle-circle-stroke-width
-      stops: [
-        [0, 0.1],
-        [18, 3]
-      ],
-      base: 5
-    },
-    "circle-radius": { // Set the radius of each circle, as well as its size at each zoom level: https://docs.mapbox.com/mapbox-gl-js/style-spec/#paint-circle-circle-radius
-      stops: [
-        [12, 5],
-        [22, 180]
-      ],
-      base: 5
-    },
-    "circle-color": [ // Specify the color each circle should be
-      'match', // Use the 'match' expression: https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
-      ['get', 'STORE_TYPE'], // Use the result 'STORE_TYPE' property
-      'Convenience Store', '#FF8C00',
-      'Convenience Store With Gas', '#FF8C00',
-      'Pharmacy', '#FF8C00',
-      'Specialty Food Store', '#9ACD32',
-      'Small Grocery Store', '#008000',
-      'Supercenter', '#008000',
-      'Superette', '#008000',
-      'Supermarket', '#008000',
-      'Warehouse Club Store', '#008000',
-      '#FF0000' // any other store type
-    ]
-  }
-});
+    map.addSource('tilequery', { // Add a new source to the map style: https://docs.mapbox.com/mapbox-gl-js/api/#map#addsource
+    type: "geojson",
+    data: {
+        "type": "FeatureCollection",
+        "features": []
+    }
+    });
+
   // Code from the next step will go here
 })
     });
