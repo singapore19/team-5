@@ -26,8 +26,36 @@
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" type="text/css" crossorigin="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js" crossorigin=""></script>
+    <style>
+        #mapid {
+            width: 850px;
+            height: 512px;
+            border: 1px solid #ccc;
+        }
+
+        .leaflet-container {
+            background: #fff;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function init() {
+            // create map and set center and zoom level
+            var map = new L.map('mapid');
+            map.setView([47.000,-120.554],13);
+
+            var mapboxTileUrl = 'https://api.mapbox.com/styles/v1/shaotang/ck1bp1tuc0cox1cpfggp9e2xl/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2hhb3RhbmciLCJhIjoiY2sxYmlwcGkyMmcwNzNibmlobDYxdTB3NyJ9.acox36NJp8FOdub-hGIYEw';
+
+            L.tileLayer(mapboxTileUrl, {
+                attribution: 'Background map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+            }).addTo(map);
+        }
+    </script>
+
 </head>
-<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
+<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout" onload="init()">
 <div class="boxed-page">
     <nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
         <div class="container">
@@ -41,6 +69,7 @@
 
     </nav>		<div class="jumbotron d-flex align-items-center">
     <div class="container text-center">
+        <div id="mapid"></div>
         <h1 class="display-2 mb-4">Map!</h1>
         <p>
             d
