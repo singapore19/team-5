@@ -7,7 +7,8 @@ html {
   overflow-x: hidden; }
 
 body {
-  background-image: url(./../img/bg.jpg);
+  /*background-image: url(./../img/bg.jpg);*/
+  background:white;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -25,9 +26,9 @@ body:after {
   position: fixed;
   opacity: .8;
   z-index: -1;
-  background: #1c7430;
-  background: -webkit-linear-gradient(to right, #1c7430, #1c7430);
-  background: linear-gradient(to right, #1c7430, #1c7430); }
+  background: white;
+  background: -webkit-linear-gradient(to right, white, white);
+  background: linear-gradient(to right, white, white); }
 
 .boxed-page {
   margin: 0 auto;
@@ -455,10 +456,10 @@ footer {
   height: 38px;
   font-weight: 30; }
 
-.btn-completed {
+.btn-north {
   border: none;
   background-color: inherit;
-  padding: 14px 28px;
+  padding: 1px 1px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
@@ -466,7 +467,7 @@ footer {
   margin-left: 15%;
 }
 
-.btn-pending {
+.btn- {
   border: none;
   background-color: inherit;
   padding: 14px 28px;

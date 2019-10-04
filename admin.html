@@ -30,9 +30,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js" crossorigin=""></script>
     <style>
         #mapid {
-            width: 850px;
+            width: 890px;
             height: 512px;
             border: 1px solid #ccc;
+            margin-top: 30px;
         }
 
         .leaflet-container {
@@ -44,7 +45,7 @@
         function init() {
             // create map and set center and zoom level
             var map = new L.map('mapid');
-            map.setView([47.000,-120.554],13);
+            map.setView([1.3575,103.8274],11);
 
             var mapboxTileUrl = 'https://api.mapbox.com/styles/v1/shaotang/ck1bp1tuc0cox1cpfggp9e2xl/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2hhb3RhbmciLCJhIjoiY2sxYmlwcGkyMmcwNzNibmlobDYxdTB3NyJ9.acox36NJp8FOdub-hGIYEw';
 
@@ -69,11 +70,21 @@
 
     </nav>		<div class="jumbotron d-flex align-items-center">
     <div class="container text-center">
+        <div class="row">
+            <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 230px; align-items: center;">
+                <div class="card-body">
+                    <h5 class="card-title">Reports</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">200</h6>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 100px; align-items: center;">
+                <div class="card-body">
+                    <h5 class="card-title">Approximated Headcount</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">80</h6>
+                </div>
+            </div>
+        </div>
         <div id="mapid"></div>
-        <h1 class="display-2 mb-4">Map!</h1>
-        <p>
-            d
-        </p>
         <script src="path_to/node_modules/tablefilter/dist/tablefilter/tablefilter.js">
 
         </script>
