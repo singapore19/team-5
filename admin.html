@@ -55,6 +55,9 @@
         }
     </script>
 
+    <script src="https://unpkg.com/tablefilter@0.6.100/dist/tablefilter/tablefilter.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/tablefilter@0.6.100/dist/tablefilter/style/tablefilter.css" />
+
 </head>
 <body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout" onload="init()">
 <div class="boxed-page">
@@ -80,7 +83,7 @@
             <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 100px; align-items: center;">
                 <div class="card-body">
                     <h5 class="card-title">Approximated Headcount</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">80</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">160</h6>
                 </div>
             </div>
         </div>
@@ -94,9 +97,1126 @@
     <section id="gtco-contact-form" class="bg-white">
         <div class="container">
             <div class="section-content">
-                <div class="col">
-                    <button class="btn-completed">Completed</button>
-                    <button class="btn-pending">Pending</button>
+                <div style="margin-top: -50px;">
+                    <table class='my-table'>
+                        <tr>
+                            <th>Phone Number</th><th>Gender</th><th>Age</th><th>Time</th><th>Ethnicity</th><th>Notes</th><th>Severity</th><th>Region</th></tr>
+                        <tr>
+                            <td>48612357</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-07</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>21354786</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-03</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>15326847</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-10-01</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Pioneer</td>
+                        </tr>
+
+                        <tr>
+                            <td>84615732</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-29</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>46531872</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-09-18</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Sengkang</td>
+                        </tr>
+
+                        <tr>
+                            <td>45671238</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-17</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Choa Chu Kang</td>
+                        </tr>
+
+                        <tr>
+                            <td>53721864</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-09-11</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>14386527</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-09</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Pioneer</td>
+                        </tr>
+
+                        <tr>
+                            <td>72863154</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-15</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>67328145</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-11</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>57182364</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-20</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Changi</td>
+                        </tr>
+
+                        <tr>
+                            <td>74562813</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-02</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>41682573</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-17</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Jurong West</td>
+                        </tr>
+
+                        <tr>
+                            <td>62384751</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-22</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>37258164</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-18</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>41528637</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-21</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Jurong West</td>
+                        </tr>
+
+                        <tr>
+                            <td>28541763</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-10-29</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Sengkang</td>
+                        </tr>
+
+                        <tr>
+                            <td>78514236</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-12</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Bishan</td>
+                        </tr>
+
+                        <tr>
+                            <td>37412568</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-12</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>32156478</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-09-18</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Jurong West</td>
+                        </tr>
+
+                        <tr>
+                            <td>45167283</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-28</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Changi</td>
+                        </tr>
+
+                        <tr>
+                            <td>54638271</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-10-05</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Hougang</td>
+                        </tr>
+
+                        <tr>
+                            <td>72485316</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-10-27</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Sengkang</td>
+                        </tr>
+
+                        <tr>
+                            <td>63174258</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-09-18</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Changi</td>
+                        </tr>
+
+                        <tr>
+                            <td>46187532</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-09-09</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pioneer</td>
+                        </tr>
+
+                        <tr>
+                            <td>45217386</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-17</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>48132576</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-10-02</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Choa Chu Kang</td>
+                        </tr>
+
+                        <tr>
+                            <td>26375481</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-22</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Choa Chu Kang</td>
+                        </tr>
+
+                        <tr>
+                            <td>23548176</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-25</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>14283756</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-30</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>24856713</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-20</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>12648573</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-30</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>13456827</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-27</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>23571864</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-16</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>14638257</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-09-08</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>42568137</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-24</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>27851436</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-26</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>28764153</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-23</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Choa Chu Kang</td>
+                        </tr>
+
+                        <tr>
+                            <td>34617285</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-25</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>18362547</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-05</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Hougang</td>
+                        </tr>
+
+                        <tr>
+                            <td>61583724</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-09</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>64128735</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-15</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Choa Chu Kang</td>
+                        </tr>
+
+                        <tr>
+                            <td>86173425</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-27</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Changi</td>
+                        </tr>
+
+                        <tr>
+                            <td>78612534</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-16</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Pioneer</td>
+                        </tr>
+
+                        <tr>
+                            <td>86175423</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-10-05</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>32678541</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-06</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>25164738</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-26</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>46781235</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-11</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>43176528</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-03</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>46217853</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-07</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>82573461</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-17</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Jurong West</td>
+                        </tr>
+
+                        <tr>
+                            <td>47821365</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-30</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>28731564</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-25</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>15486732</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-04</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Bishan</td>
+                        </tr>
+
+                        <tr>
+                            <td>81463752</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-02</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pioneer</td>
+                        </tr>
+
+                        <tr>
+                            <td>52641738</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-16</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>82345617</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-27</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>46318572</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-24</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Sengkang</td>
+                        </tr>
+
+                        <tr>
+                            <td>81543762</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-05</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>78213546</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-03</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>24586173</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-09-21</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Bishan</td>
+                        </tr>
+
+                        <tr>
+                            <td>37465821</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-01</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>68457123</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-20</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Sengkang</td>
+                        </tr>
+
+                        <tr>
+                            <td>53612478</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-13</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>76542138</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-10-18</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Choa Chu Kang</td>
+                        </tr>
+
+                        <tr>
+                            <td>46583271</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-10-23</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>28457316</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-10-08</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Kovan</td>
+                        </tr>
+
+                        <tr>
+                            <td>23768415</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-10-03</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>26458713</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-09-14</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>72158346</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-10-28</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Bishan</td>
+                        </tr>
+
+                        <tr>
+                            <td>81456273</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-07</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>21576483</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-28</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>87514236</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-09-25</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Serangoon</td>
+                        </tr>
+
+                        <tr>
+                            <td>26381754</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-09-07</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>45183726</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-29</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>68734125</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-25</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>27385641</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-09</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>37284615</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-02</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>24576183</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-21</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>68254371</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-22</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>73165842</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-12</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Hougang</td>
+                        </tr>
+
+                        <tr>
+                            <td>21746538</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-09-25</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>17235648</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-09-24</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Bishan</td>
+                        </tr>
+
+                        <tr>
+                            <td>36458217</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-02</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>68543217</td>
+                            <td>female</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-21</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Jurong West</td>
+                        </tr>
+
+                        <tr>
+                            <td>53614287</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-09-27</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Changi</td>
+                        </tr>
+
+                        <tr>
+                            <td>78243561</td>
+                            <td>female</td>
+                            <td>Midlife</td>
+                            <td>2019-10-25</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>17654328</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-10</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>41652738</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-10-15</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Jurong West</td>
+                        </tr>
+
+                        <tr>
+                            <td>25173648</td>
+                            <td>male</td>
+                            <td>Midlife</td>
+                            <td>2019-09-23</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>75812436</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-15</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Moderate</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>23561748</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-10-20</td>
+                            <td>chinese</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>53287641</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-21</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>64718235</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-22</td>
+                            <td>others</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Joo Koon</td>
+                        </tr>
+
+                        <tr>
+                            <td>36281475</td>
+                            <td>male</td>
+                            <td>Children</td>
+                            <td>2019-09-16</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+
+                        <tr>
+                            <td>41685372</td>
+                            <td>female</td>
+                            <td>Elderly</td>
+                            <td>2019-09-21</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Severe</td>
+                            <td>Bishan</td>
+                        </tr>
+
+                        <tr>
+                            <td>85164723</td>
+                            <td>male</td>
+                            <td>Elderly</td>
+                            <td>2019-10-26</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Bukit Panjang</td>
+                        </tr>
+
+                        <tr>
+                            <td>37248615</td>
+                            <td>female</td>
+                            <td>Children</td>
+                            <td>2019-09-18</td>
+                            <td>indian</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Jurong East</td>
+                        </tr>
+
+                        <tr>
+                            <td>34178265</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-09</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Tanjong Pangar</td>
+                        </tr>
+
+                        <tr>
+                            <td>45732168</td>
+                            <td>male</td>
+                            <td>Young Adult</td>
+                            <td>2019-09-24</td>
+                            <td>malay</td>
+                            <td>Testing</td>
+                            <td>Not urgent</td>
+                            <td>Pasir Ris</td>
+                        </tr>
+                    </table>
+                    <script>
+                        var tf = new TableFilter(document.querySelector('.my-table'), {
+                            base_path: 'https://unpkg.com/tablefilter@0.6.100/dist/tablefilter/',
+                            col_1: 'multiple',
+                            col_2: 'multiple',
+                            col_4: 'multiple',
+                            col_6: 'multiple',
+                            col_7: 'multiple',
+                            col_widths: [
+                                '100px', '120px', '120px',
+                                '100px', '100px', '100px',
+                                '110px', '150px'
+                            ]
+                        });
+                        tf.init();
+                    </script>
                 </div>
                 <div class="row">
                     <!-- Contact Form Holder -->
